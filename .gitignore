@@ -14,6 +14,7 @@ i18n/*.invalid
 !data/static/i18n/*.json
 data/chatbot/*.*
 !data/chatbot/.gitkeep
+snyk-jira-sync-macos
 
 # Build
 .nyc_output/
