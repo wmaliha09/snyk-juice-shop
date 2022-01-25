@@ -41,6 +41,6 @@ jobs:
     # Which Snyk command to run, defaults to test
           command: test
     # Additional arguments to pass to Snyk
-          args: --all-projects
+          args: --file=package.json
     # Output a snyk.json file with results if running the test command
           json: snyk_results.json
